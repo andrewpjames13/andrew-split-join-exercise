@@ -10,23 +10,24 @@ world_cup_news
 
 # enter your solutions inside the methods
 def goal(goal_message)
-
+  goal_message + goal_message
 end
 
 def generate_an_array_of_teams(team_list)
-
+  team_list.split(", ")
 end
 
 def number_of_teams(team_list)
-
+  team_list.split(", ").count
 end
 
 def return_australia(team_list)
+  team_list.split(", ")[6]
 
 end
 
 def starts_with_C(team_list)
-
+  team_list.start_with?('C')
 end
 
 def block_string_to_single_line(long_string)
